@@ -1,0 +1,809 @@
+Question,Rank,Retrieved_Document,Distance,Similarity_Score
+What is Artificial Intelligence and how has it evolved?,1,"1.1 What Is Artificial Intelligence? 
+Artificial Intelligence (AI) is a branch of computer science concerned with designing systems that 
+perform tasks normally associated with human intelligence. Such tasks include perception, 
+reasoning, learning, planning, language understanding, decision making, and problem solving. 
+ 
+Traditional software generally implements behavior through rules and logic explicitly specified 
+by programmers. In machine-learning systems, many of the parameters that determine the 
+system's behavior are instead learned from data. By analyzing large numbers of examples, they 
+discover statistical patterns that enable them to perform tasks with increasing accuracy. This 
+transition from rule-based programming to data-driven learning represents one of the most",0.6254890561103821,0.6151994664257481
+What is Artificial Intelligence and how has it evolved?,2,"Learning in greater depth and then introduce the specific technologies underlying modern LLMs. 
+1.1 What Is Artificial Intelligence? 
+Artificial Intelligence (AI) is a branch of computer science concerned with designing systems that 
+perform tasks normally associated with human intelligence. Such tasks include perception, 
+reasoning, learning, planning, language understanding, decision making, and problem solving. 
+ 
+Traditional software generally implements behavior through rules and logic explicitly specified 
+by programmers. In machine-learning systems, many of the parameters that determine the 
+system's behavior are instead learned from data. By analyzing large numbers of examples, they 
+discover statistical patterns that enable them to perform tasks with increasing accuracy. This",0.7190794944763184,0.5817066652316908
+What is Artificial Intelligence and how has it evolved?,3,"learn from experience, solve problems, adapt to new circumstances, and make informed 
+decisions. 
+ 
+Human intelligence is the result of biological processes that involve perception, memory, 
+learning, reasoning, creativity, emotions, and social interaction. These capabilities operate 
+together and are influenced by experience, culture, and context. 
+ 
+Artificial intelligence is fundamentally different. Current AI systems provide no established 
+evidence of consciousness, subjective experience, or self-awareness comparable to that of 
+humans. Their apparent intelligence arises from computational processes rather than from 
+demonstrated human-like mental experience. Instead, it processes data using mathematical",0.7403625845909119,0.5745929088880403
+What is Artificial Intelligence and how has it evolved?,4,"shifts. Each new generation of methods addressed important limitations of its predecessors while 
+opening new possibilities for intelligent systems.  
+Artificial Intelligence did not emerge as a single invention. It evolved through several 
+major stages, each reflecting new scientific ideas, improved computing capabilities, and the 
+availability of larger datasets. Understanding this evolution helps explain why today's Large 
+Language Models are the result of decades of progress rather than an isolated breakthrough.",0.7770999670028687,0.5627145453649011
+What is Artificial Intelligence and how has it evolved?,5,"References 
+1. Buchanan, B. G. (2005). A (Very) Brief History of Artificial Intelligence. AI Magazine, 26(4), 53–60.  
+2. Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning. MIT Press.  
+3. LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep Learning. Nature, 521, 436–444.  
+4. McCarthy, J., Minsky, M. L., Rochester, N., & Shannon, C. E. (2006). A Proposal for the 
+Dartmouth Summer Research Project on Artificial Intelligence, August 31, 1955. AI Magazine, 27(4), 
+12–14.  
+5. Mitchell, T. M. (1997). Machine Learning. McGraw-Hill.  
+6. Nilsson, N. J. (2010). The Quest for Artificial Intelligence: A History of Ideas and Achievements. 
+Cambridge University Press.  
+7. Russell, S., & Norvig, P. (2020). Artificial Intelligence: A Modern Approach (4th ed.). Pearson.",0.7857768535614014,0.5599803794106106
+What are the different learning paradigms in Machine Learning?,1,"the programmer designs the learning process and provides representative data. 
+2.2 What Is Machine Learning? 
+Machine Learning is a branch of Artificial Intelligence concerned with constructing systems that 
+improve their performance by learning from experience. In practice, experience is represented by 
+data. The objective is not to memorize examples but to build a mathematical model capable of 
+making accurate predictions for new, previously unseen cases. 
+Supervised Learning 
+Supervised learning is the most widely used learning paradigm. It is called supervised because 
+every training example is accompanied by the correct answer, known as a label. During training, 
+the algorithm repeatedly compares its prediction with the correct label and gradually adjusts the",0.7240673899650574,0.58002373098668
+What are the different learning paradigms in Machine Learning?,2,"explicitly, they collected large numbers of representative examples and allowed algorithms to 
+discover useful patterns automatically. This change—from programming rules to learning from 
+data—is the foundation of modern Machine Learning. 
+Introduction to Large Language Models 
+21 
+Example 
+A company owns five million historical email messages. Each message has already been labelled 
+by users as Spam or Legitimate. Rather than analyzing every message manually and inventing 
+new rules, these labelled examples become the training material from which a model learns. 
+Key Points 
+Machine Learning changes the role of the programmer. Instead of writing decision rules directly, 
+the programmer designs the learning process and provides representative data. 
+2.2 What Is Machine Learning?",0.7742834687232971,0.5636077986566372
+What are the different learning paradigms in Machine Learning?,3,"Data is central to Machine Learning. Its quantity matters, but quality, relevance, diversity, and 
+representativeness are equally important. Training, validation, and test datasets serve different 
+purposes and help determine whether a model can generalize beyond the examples used during 
+development. 
+A trained Machine Learning system is represented by a model whose parameters have been 
+adjusted during training. Features describe the input data, while parameters determine how the",0.8048455119132996,0.554064042268033
+What are the different learning paradigms in Machine Learning?,4," Validation data, used to adjust and compare alternative models during development.  
+ Test data, used only after training has been completed to estimate how well the final 
+model is likely to perform in practical applications.  
+The distinction among these three datasets is one of the fundamental principles of modern 
+Machine Learning and will be encountered repeatedly throughout this book. 
+Key Points 
+The primary objective of Machine Learning is not to memorize training examples but to 
+construct a model that captures the underlying patterns within the data and applies them 
+successfully to new situations. The concepts of features, parameters, generalization, and 
+evaluation are therefore central to understanding how modern Machine Learning systems—and",0.8224436640739441,0.5487138064748573
+What are the different learning paradigms in Machine Learning?,5,"--- Page 21 ---
+Introduction to Large Language Models 
+21 
+Example 
+A company owns five million historical email messages. Each message has already been labelled 
+by users as Spam or Legitimate. Rather than analyzing every message manually and inventing 
+new rules, these labelled examples become the training material from which a model learns. 
+Key Points 
+Machine Learning changes the role of the programmer. Instead of writing decision rules directly, 
+the programmer designs the learning process and provides representative data. 
+2.2 What Is Machine Learning? 
+Machine Learning is a branch of Artificial Intelligence concerned with constructing systems that 
+improve their performance by learning from experience. In practice, experience is represented by",0.8253213763237,0.5478487311719629
+Why is data quality important in Machine Learning?,1,"rules written by the programmer. Once these rules have been implemented, the computer follows 
+them. Consequently, improving the program usually means modifying or adding new rules. 
+Machine Learning follows a fundamentally different philosophy. Instead of relying exclusively on 
+manually written rules, a Machine Learning system derives its behavior by analyzing examples. 
+The quality of the resulting model therefore depends not only on the learning algorithm but also, 
+and often even more importantly, on the quality of the data used during training. 
+For this reason, data is frequently described as the fuel of Machine Learning. Just as an engine 
+cannot perform without fuel, a Machine Learning algorithm cannot learn without data.",0.8180758953094482,0.5500320435356707
+Why is data quality important in Machine Learning?,2,"rules written by the programmer. Once these rules have been implemented, the computer follows 
+them. Consequently, improving the program usually means modifying or adding new rules. 
+Machine Learning follows a fundamentally different philosophy. Instead of relying exclusively on 
+manually written rules, a Machine Learning system derives its behavior by analyzing examples. 
+The quality of the resulting model therefore depends not only on the learning algorithm but also, 
+and often even more importantly, on the quality of the data used during training. 
+For this reason, data is frequently described as the fuel of Machine Learning. Just as an engine 
+cannot perform without fuel, a Machine Learning algorithm cannot learn without data.",0.8180758953094482,0.5500320435356707
+Why is data quality important in Machine Learning?,3,"--- Page 24 ---
+Introduction to Large Language Models 
+24 
+2.3 Data: The Fuel of Machine Learning 
+Learning Objectives 
+After completing this section, the reader should be able to: 
+ Explain why data is considered the foundation of modern Machine Learning.  
+ Distinguish between structured and unstructured data.  
+ Understand why data quality is often more important than data quantity.  
+ Explain the importance of representative training data.  
+ Describe the effects of noisy and missing data.  
+ Understand the roles of training, validation, and test datasets. 
+Why Data Matters 
+In traditional computer programming, the behavior of a program is determined primarily by the 
+rules written by the programmer. Once these rules have been implemented, the computer follows",0.9100891351699829,0.5235357772510485
+Why is data quality important in Machine Learning?,4,"Data is central to Machine Learning. Its quantity matters, but quality, relevance, diversity, and 
+representativeness are equally important. Training, validation, and test datasets serve different 
+purposes and help determine whether a model can generalize beyond the examples used during 
+development. 
+A trained Machine Learning system is represented by a model whose parameters have been 
+adjusted during training. Features describe the input data, while parameters determine how the",0.9310179948806763,0.5178615645483889
+Why is data quality important in Machine Learning?,5,"Introduction to Large Language Models 
+24 
+2.3 Data: The Fuel of Machine Learning 
+Learning Objectives 
+After completing this section, the reader should be able to: 
+ Explain why data is considered the foundation of modern Machine Learning.  
+ Distinguish between structured and unstructured data.  
+ Understand why data quality is often more important than data quantity.  
+ Explain the importance of representative training data.  
+ Describe the effects of noisy and missing data.  
+ Understand the roles of training, validation, and test datasets. 
+Why Data Matters 
+In traditional computer programming, the behavior of a program is determined primarily by the 
+rules written by the programmer. Once these rules have been implemented, the computer follows",0.9437194466590881,0.5144775403254951
+What are neural networks and how do they work?,1,"- of neurons are connected into multiple layers. 
+A neural network typically contains three types of layers. 
+Input Layer: 
+The input layer receives the original data. For an image-recognition system, the inputs may 
+represent the brightness values of individual pixels. For a spam filter, the inputs may represent 
+features extracted from an email. For a language model, the inputs eventually become numerical 
+representations of words or tokens, a topic that will be discussed in later chapters. 
+The input layer performs no learning by itself. Its purpose is simply to pass information into the 
+network.",0.6026453971862793,0.6239683474308619
+What are neural networks and how do they work?,2,"solve problems that were previously beyond the reach of traditional approaches. 
+Today, neural networks form the technological foundation of many of the most successful 
+Artificial Intelligence systems, including image recognition, speech recognition, machine 
+translation, autonomous vehicles, medical image analysis, scientific discovery, and Large 
+Language Models. 
+It is important to emphasize that neural networks do not replace the ideas introduced in the 
+previous sections. They build upon them. A neural network is still a Machine Learning model. It 
+still learns from data. It still contains parameters that are adjusted during training. The major 
+difference is that it provides a far richer computational structure, allowing it to represent 
+relationships of much greater complexity.",0.6345744132995605,0.6117800400297437
+What are neural networks and how do they work?,3,"data. This effort led to the development of artificial neural networks, commonly referred to 
+simply as neural networks. 
+Unlike many earlier Machine Learning models, neural networks can learn multiple levels of 
+internal representations. Instead of searching only for direct relationships between inputs and 
+outputs, they gradually build increasingly sophisticated descriptions of the data, enabling them to 
+solve problems that were previously beyond the reach of traditional approaches. 
+Today, neural networks form the technological foundation of many of the most successful 
+Artificial Intelligence systems, including image recognition, speech recognition, machine 
+translation, autonomous vehicles, medical image analysis, scientific discovery, and Large 
+Language Models.",0.6512389183044434,0.6056058810840281
+What are neural networks and how do they work?,4,"translation, autonomous vehicles, medical image analysis, scientific discovery, and Large 
+Language Models. 
+It is important to emphasize that neural networks do not replace the ideas introduced in the 
+previous sections. They build upon them. A neural network is still a Machine Learning model. It 
+still learns from data. It still contains parameters that are adjusted during training. The major 
+difference is that it provides a far richer computational structure, allowing it to represent 
+relationships of much greater complexity. 
+Inspiration from the Human Brain 
+The term neural network originates from a very general analogy with the human nervous system. 
+The human brain contains billions of biological nerve cells called neurons. Each neuron receives",0.6579912900924683,0.6031394772551723
+What are neural networks and how do they work?,5,"The basic idea was introduced in Section 2.5. A neural network contains interconnected 
+computational units whose parameters are adjusted during training. When a network contains 
+many layers, each layer can transform the representation produced by the preceding layer. This 
+allows the network to learn increasingly complex patterns. 
+From Simple Patterns to Complex Representations 
+Consider an image-recognition system. An early layer might learn to recognize simple patterns 
+such as edges and changes in brightness. A later layer can combine these patterns into shapes. 
+Still later layers can combine those shapes into more complex structures, eventually producing an 
+internal representation that is useful for recognizing objects or faces.",0.6711171865463257,0.5984020797887226
+What are tokens in Large Language Models?,1,"Large Language Models generate text one token at a time. A token is the basic unit processed by 
+the model. Depending on the tokenizer, a token may be a complete word, part of a word, 
+punctuation, or another short text fragment. For example, the sentence 'Machine learning changes 
+everything.' could be represented by tokens such as 'Machine', ' learning', ' changes', ' everything', 
+and '.'. 
+Running Example: Generating an Email 
+Suppose the prompt is: 'Write a polite reply declining a meeting invitation because I already have 
+another commitment.'  
+The model does not retrieve a stored email. Instead, it predicts the first token, for example 
+'Thank'. Using the prompt and that token, it predicts the next token, perhaps 'you', then ',', then '",0.4234992265701294,0.7024942348647876
+What are tokens in Large Language Models?,2,"units are called tokens. 
+A token may correspond to an entire word, part of a word, a punctuation mark, a number, or 
+another meaningful fragment of text. By combining relatively small numbers of reusable tokens, 
+a language model can represent virtually any document, including previously unseen words, 
+provided that their characters or subword components can be represented by the tokenizer's 
+vocabulary. 
+This seemingly modest idea turns out to be one of the key innovations that made modern Large 
+Language Models practical. The next section examines tokens in much greater detail and explains 
+how they become the fundamental building blocks from which every conversation with an LLM 
+is constructed. 
+Key Points",0.45394182205200195,0.6877854291230601
+What are tokens in Large Language Models?,3," Explain why Large Language Models process tokens rather than words. 
+ Understand the basic idea of tokenization. 
+ Describe how text is converted into tokens. 
+ Appreciate why different tokenizations are possible. 
+ Explain why tokenization is an essential step before any language processing can begin. 
+Why Tokens Exist 
+In the previous section, we concluded that words are not always the most practical units for 
+computer processing. Modern Large Language Models therefore operate on tokens instead of 
+directly processing words. 
+At first, this may seem like an unnecessary complication. Why not simply treat every word as a 
+separate unit?",0.480584055185318,0.6754091376965656
+What are tokens in Large Language Models?,4,"characters. In some cases, one word may even be divided into multiple tokens while another 
+language represents the corresponding word as a single token. 
+This distinction is important. Tokens represent pieces of text, not meanings. The tokenizer 
+merely converts character sequences into numerical identifiers. It has no understanding of the 
+concepts represented by those words. The semantic relationships among words are learned later 
+during training. Through repeated exposure to enormous amounts of multilingual text, the model 
+gradually learns that words such as dog, כלב ,chien, Hund, and perro often appear in similar 
+contexts and therefore represent closely related concepts. 
+This illustrates an important principle of Large Language Models: the tokenizer identifies",0.49116647243499756,0.670615936238864
+What are tokens in Large Language Models?,5,"Introduction to Large Language Models 
+47 
+The next question is equally important: What exactly is a token? Although people naturally 
+think in terms of words, computers often process language differently. Understanding this 
+distinction is the next step toward understanding how Large Language Models work. 
+3.4 Why Words Are Not Enough 
+When people read a sentence, they naturally think of it as a sequence of words. For example: 
+“Artificial Intelligence is transforming many industries”. 
+To a human reader, this sentence contains five familiar words. It therefore seems reasonable to 
+assume that a computer should process language one word at a time. In practice, however, this 
+approach creates several important difficulties.",0.4954787492752075,0.6686821865470545
+What are embeddings and why are they important?,1,"Before examining how this is accomplished, it is useful to develop a better intuition for 
+embeddings themselves. In the next section, we will see that embeddings can be viewed as points 
+in a geometric space, where distances between points capture relationships among concepts. 
+Key Points 
+Token IDs uniquely identify vocabulary entries, but embeddings provide meaningful numerical 
+representations that the neural network can learn from. During training, embeddings gradually 
+organize themselves so that tokens used in similar contexts acquire similar representations. In this 
+way, semantic relationships emerge naturally from the statistics of language rather than from 
+manually programmed rules. 
+4.3 How Are Embeddings Learned?",0.6600954532623291,0.6023750008078478
+What are embeddings and why are they important?,2,"embeddings. An embedding model converts a piece of text into a vector of numerical values 
+representing aspects of the text in a multidimensional mathematical space. 
+For example: ""Employees must submit travel expenses within thirty days of returning from 
+a business trip"" might be converted conceptually into: [0.17, −0.42, 0.08, 0.31, ...] 
+The actual vector may contain hundreds or thousands of numerical dimensions. The individual 
+numbers are not normally meaningful to a user; their importance comes from the relationships 
+between vectors: texts with related meanings tend to produce vectors that are relatively close to 
+one another according to an appropriate similarity measure. 
+The embedding process is normally performed by an embedding model, which is a model",0.6829042434692383,0.5942108731858331
+What are embeddings and why are they important?,3,"embeddings. An embedding model converts a piece of text into a vector of numerical values 
+representing aspects of the text in a multidimensional mathematical space. 
+For example: ""Employees must submit travel expenses within thirty days of returning from 
+a business trip"" might be converted conceptually into: [0.17, −0.42, 0.08, 0.31, ...] 
+The actual vector may contain hundreds or thousands of numerical dimensions. The individual 
+numbers are not normally meaningful to a user; their importance comes from the relationships 
+between vectors: texts with related meanings tend to produce vectors that are relatively close to 
+one another according to an appropriate similarity measure. 
+The embedding process is normally performed by an embedding model, which is a model",0.6829042434692383,0.5942108731858331
+What are embeddings and why are they important?,4,"Each of these components contributes to the model's overall behaviour, and each is refined 
+continuously throughout training. No single component contains ""the knowledge"" of the model. 
+Rather, the model's capabilities emerge from the combined effect of all these components 
+working together. 
+Learning the Embeddings 
+The embeddings provide a useful example of this learning process. As explained in Chapter 4, 
+every token in the vocabulary is associated with a numerical vector known as its embedding. At 
+the beginning of training, these vectors contain little useful information. Their numerical values 
+are initialized before training begins, but they do not yet reflect any meaningful linguistic 
+relationships.",0.7387417554855347,0.5751285358191419
+What are embeddings and why are they important?,5,"A neural network therefore needs a richer representation—one that reflects relationships between 
+concepts rather than simply assigning arbitrary labels. This richer representation is called an 
+embedding: Instead of representing each token by a single integer, the language model represents 
+it by a vector—an ordered collection of numerical values. 
+ The relationship between token IDs and their corresponding embedding vectors is illustrated in 
+Figure 4.1. 
+ 
+We can think of an embedding as a multi-dimensional profile of a word, where the profile is a 
+vector of categories, like 'Is Technology?' or 'Is Living Being?' But no human programmer 
+manually creates names or defines these categories; during pre-training, the LLM automatically",0.7782385945320129,0.5623542324831694
+Explain the Transformer architecture.,1,"Artificial Intelligence: the Transformer architecture. 
+Today, nearly all modern Large Language Models—including ChatGPT, Gemini, Claude, Llama, 
+Mistral, and many others—are based on the Transformer. Although these systems differ in many 
+important ways, they all rely on the same fundamental architectural principles introduced in the 
+Transformer model. 
+To appreciate why the Transformer was such a revolutionary development, it is helpful to 
+understand the limitations of the neural network architectures that came before it.",0.7774293422698975,0.5626102687845427
+Explain the Transformer architecture.,2,"Self-attention is the central mechanism that allows a Transformer to incorporate information from 
+different tokens. However, self-attention alone is not the complete Transformer architecture. 
+A Transformer layer contains several additional components that work together to transform the 
+representations of the tokens. 
+At a high level, a Transformer layer can be viewed as a sequence of operations: 
+Input representations 
+↓ 
+Multi-Head Self-Attention 
+↓ 
+Add & Normalize 
+↓ 
+Feed-Forward Network 
+↓ 
+Add & Normalize 
+↓ 
+Output representations 
+The exact details vary somewhat among Transformer architectures, but this basic organization is 
+common to the Transformer family. 
+The main components are discussed below. 
+Multi-Head Self-Attention",0.7993829250335693,0.555746076106254
+Explain the Transformer architecture.,3,"network and makes it easier to train very deep models. 
+The second operation is layer normalization. Layer normalization adjusts the numerical values 
+of the representation so that they remain within a stable range as they pass through many 
+Transformer layers. Without this normalization, the repeated transformations performed by",0.8490811586380005,0.5408091447627869
+Explain the Transformer architecture.,4,"networks. Instead, during a training stage in which these parameters are trainable, they are 
+optimized together throughout the process. Each small improvement influences all the others, 
+allowing the entire Transformer to evolve as a single integrated system.",0.8715457916259766,0.5343176771171664
+Explain the Transformer architecture.,5,"--- Page 83 ---
+Introduction to Large Language Models 
+83 
+5.4 The Transformer Layer: Putting the Components Together 
+Self-attention is the central mechanism that allows a Transformer to incorporate information from 
+different tokens. However, self-attention alone is not the complete Transformer architecture. 
+A Transformer layer contains several additional components that work together to transform the 
+representations of the tokens. 
+At a high level, a Transformer layer can be viewed as a sequence of operations: 
+Input representations 
+↓ 
+Multi-Head Self-Attention 
+↓ 
+Add & Normalize 
+↓ 
+Feed-Forward Network 
+↓ 
+Add & Normalize 
+↓ 
+Output representations 
+The exact details vary somewhat among Transformer architectures, but this basic organization is 
+common to the Transformer family.",0.8797435164451599,0.5319874712966854
+What is the role of self-attention in Transformers?,1,"Self-attention is the central mechanism that allows a Transformer to incorporate information from 
+different tokens. However, self-attention alone is not the complete Transformer architecture. 
+A Transformer layer contains several additional components that work together to transform the 
+representations of the tokens. 
+At a high level, a Transformer layer can be viewed as a sequence of operations: 
+Input representations 
+↓ 
+Multi-Head Self-Attention 
+↓ 
+Add & Normalize 
+↓ 
+Feed-Forward Network 
+↓ 
+Add & Normalize 
+↓ 
+Output representations 
+The exact details vary somewhat among Transformer architectures, but this basic organization is 
+common to the Transformer family. 
+The main components are discussed below. 
+Multi-Head Self-Attention",0.5544826984405518,0.6433008234850053
+What is the role of self-attention in Transformers?,2,"common to the Transformer family. 
+The main components are discussed below. 
+Multi-Head Self-Attention 
+In Section 5.3, we examined self-attention as though there were one attention process operating 
+on the sequence.  
+In an actual Transformer layer, the model normally uses multiple attention heads. Each attention 
+head performs its own self-attention computation. Although all heads receive the same input 
+representations, each has its own learned parameters for producing and processing its Query, Key, 
+and Value representations. 
+This allows different heads to learn to focus on different types of relationships. 
+For example, one attention head might learn to pay particular attention to relationships between: 
+ a verb and its subject;  
+ a pronoun and the noun to which it refers;",0.6060337424278259,0.6226519241671159
+What is the role of self-attention in Transformers?,3,"common to the Transformer family. 
+The main components are discussed below. 
+Multi-Head Self-Attention 
+In Section 5.3, we examined self-attention as though there were one attention process operating 
+on the sequence.  
+In an actual Transformer layer, the model normally uses multiple attention heads. Each attention 
+head performs its own self-attention computation. Although all heads receive the same input 
+representations, each has its own learned parameters for producing and processing its Query, Key, 
+and Value representations. 
+This allows different heads to learn to focus on different types of relationships. 
+For example, one attention head might learn to pay particular attention to relationships between: 
+ a verb and its subject;  
+ a pronoun and the noun to which it refers;",0.6060337424278259,0.6226519241671159
+What is the role of self-attention in Transformers?,4,"self-attention are not immediately used to predict the next token. They must first pass through the 
+other components of the current Transformer layer, including the Feed-Forward Neural Network, 
+residual connections, and layer normalization discussed in Section 5.5. The resulting 
+representations then become the input to the next Transformer layer, where the process is 
+repeated.",0.702630341053009,0.5873265475708249
+What is the role of self-attention in Transformers?,5,"--- Page 83 ---
+Introduction to Large Language Models 
+83 
+5.4 The Transformer Layer: Putting the Components Together 
+Self-attention is the central mechanism that allows a Transformer to incorporate information from 
+different tokens. However, self-attention alone is not the complete Transformer architecture. 
+A Transformer layer contains several additional components that work together to transform the 
+representations of the tokens. 
+At a high level, a Transformer layer can be viewed as a sequence of operations: 
+Input representations 
+↓ 
+Multi-Head Self-Attention 
+↓ 
+Add & Normalize 
+↓ 
+Feed-Forward Network 
+↓ 
+Add & Normalize 
+↓ 
+Output representations 
+The exact details vary somewhat among Transformer architectures, but this basic organization is 
+common to the Transformer family.",0.737776517868042,0.575447987539175
+How are Large Language Models trained?,1,"--- Page 91 ---
+Introduction to Large Language Models 
+91 
+Chapter 6 
+Training Large Language Models 
+ 
+CHAPTER OUTLINE 
+6.1 Why Does a Large Language Model Need Training? 
+6.2 The Training Corpus 
+6.3 Learning by Predicting the Next Token 
+6.4 Measuring Prediction Error: The Loss Function 
+6.5 Learning from Errors: Backpropagation and Gradient 
+Descent 
+6.6 Optimizing Billions of Parameters 
+6.7 The Computational Requirements of LLM Training 
+6.8 From Pre-Training to Fine-Tuning and Alignment",0.48555558919906616,0.6731488254432456
+How are Large Language Models trained?,2,"collectively as the training corpus, from which modern Large Language Models acquire their 
+statistical knowledge. 
+6.2 The Training Corpus 
+Having established why training is necessary, we may now ask another fundamental question: 
+Where does a Large Language Model obtain the knowledge from which it learns? 
+Human beings learn language through years of interaction with other people. From early 
+childhood, we listen to conversations, read books, attend school, and gradually develop an 
+understanding of words, grammar, facts, and relationships among ideas. A Large Language 
+Model follows a very different learning process. It does not observe the physical world, attend 
+classes, or receive explanations from teachers. Instead, almost everything it learns is derived from",0.5118034482002258,0.661461647802485
+How are Large Language Models trained?,3,"approaches such as Large Language Models. 
+3.3 What Makes a Large Language Model Different? 
+After reading the previous sections, one question naturally arises: what exactly is a Large 
+Language Model? Although many technical definitions exist, the central idea is surprisingly 
+simple: A Large Language Model (LLM) is a neural network that has learned to predict the next 
+token in a sequence of text. 
+At first glance, this objective may appear almost trivial. How could predicting the next piece of 
+text possibly lead to a system capable of answering questions, writing essays, translating 
+languages, generating computer programs, or participating in conversations? 
+The answer lies in the enormous amount of knowledge required to make accurate predictions.",0.528005838394165,0.6544477611753992
+How are Large Language Models trained?,4,"--- Page 175 ---
+Introduction to Large Language Models 
+175 
+The previous chapters explained how Large Language Models are built, trained, and used to 
+generate responses. This chapter examined what these systems can and cannot do. The next 
+chapter builds on this foundation by exploring how these capabilities are applied across a wide 
+variety of professional domains, illustrating how the principles developed throughout this book 
+are transforming education, software engineering, business, healthcare, scientific research, and 
+many other fields. 
+ 
+References 
+1. Brown, T. B., Mann, B., Ryder, N., et al. (2020). Language Models are Few-Shot Learners. 
+Advances in Neural Information Processing Systems, 33, 1877–1901.",0.5534815788269043,0.6437153897602955
+How are Large Language Models trained?,5,"--- Page 118 ---
+Introduction to Large Language Models 
+118 
+6.9 From Training to Inference 
+By the end of the previous section, the Large Language Model has completed all major stages of 
+its training. Beginning with randomly initialized numerical parameters, it has gradually learned 
+from enormous collections of text, refined its predictions through billions of optimization steps, 
+and undergone additional training to improve its ability to follow instructions and interact 
+effectively with human users. 
+At this point, an important question naturally arises: What exactly remains after training has 
+finished? 
+Throughout this chapter, we have repeatedly emphasized that training consists of making 
+countless small adjustments to the model's parameters. After weeks or even months of",0.5584527850151062,0.6416620443142311
+What happens during LLM inference?,1,"software. In reality, they arise from the fundamental design of LLMs. 
+As explained in Chapter 7, the model's task during inference is to generate the next token based 
+on the prompt, the conversation context and the statistical knowledge encoded in its learned 
+parameters.",0.7879998087882996,0.5592841761418783
+What happens during LLM inference?,2,"of facts. 
+These capabilities have led many observers to conclude that LLMs are capable of reasoning in 
+much the same way as humans. Others argue that no genuine reasoning takes place at all, 
+maintaining that the model merely predicts statistically likely sequences of words. 
+As with many questions discussed throughout this book, the reality lies somewhere between these 
+two extremes. To understand the reasoning capabilities of LLMs, it is important to examine both 
+what they can do and how these abilities emerge from the learning process described in the 
+previous chapters.",0.792962372303009,0.5577361886939817
+What happens during LLM inference?,3,"software. In reality, they arise from the fundamental design of LLMs. 
+As explained in Chapter 7, the model's task during inference is to generate the next token based 
+on the prompt, the conversation context and the statistical knowledge encoded in its learned 
+parameters. 
+Introduction to Large Language Models 
+169 
+Notice what this objective does not include: The model is not instructed to verify whether every 
+statement is factually correct; it is not connected automatically to an encyclopedia, a scientific 
+database, or the Internet; its task is to generate a continuation according to the probability 
+distribution produced by the model, based on what it has learned during training and the current 
+context.",0.8120875358581543,0.5518497203979872
+What happens during LLM inference?,4,"knowledge by optimizing billions of parameters. 
+ The second phase is inference, during which the trained model applies its learned 
+parameters. 
+From Learning to Using Knowledge 
+The relationship between training and inference may be compared to that of a university student: 
+During years of study, the student gradually acquires knowledge through lectures, textbooks, 
+assignments, and examinations. Eventually, formal education comes to an end. Later, when the 
+graduate begins professional work, that accumulated knowledge is applied to solve practical 
+problems. Normally, performing a particular task does not fundamentally change everything the 
+graduate has previously learned. 
+LLMs follow a similar pattern: Training corresponds to the long period of learning; inference",0.8361006379127502,0.544632456060134
+What happens during LLM inference?,5,"model can require substantial computational resources for a relatively concentrated period. 
+Inference, by contrast, may continue for months or years after training has been completed. 
+For a widely used service, the cumulative computational resources required for inference can 
+therefore become very significant. An organization evaluating an LLM-based application should 
+consider both cost of creating or obtaining the model and cost of operating the model over 
+time. This is one reason why selecting a model for an application involves more than comparing 
+model capabilities.",0.9045165181159973,0.5250676434086425
+What are the capabilities and limitations of LLMs?,1,"Industries 
+ 
+CHAPTER OUTLINE 
+9.1 From Capabilities to Applications 
+9.2 Education 
+9.3 Software Engineering 
+9.4 Business and Operations 
+9.5 Healthcare 
+9.6 Law and Legal Services 
+9.7 Finance and Banking 
+9.8 Scientific Research 
+9.9 Customer Support and CRM 
+ 
+  
+Introduction to Large Language Models 
+177 
+Learning Objectives 
+ Explain how the capabilities of LLMs enable a wide variety of practical applications. 
+ Describe representative applications of LLMs in education, software engineering, 
+business, healthcare, law, finance, scientific research, and customer support. 
+ Identify the principal benefits that LLMs can provide in different professional domains. 
+ Recognize the limitations and risks associated with using LLMs in practical applications.",0.6342536807060242,0.6119001057216428
+What are the capabilities and limitations of LLMs?,2,"most powerful infrastructure available, but to obtain sufficient performance for the requirements 
+of the application. 
+Cost 
+Cost is another major consideration. As discussed earlier, the total cost of an LLM-based system 
+can include computing, memory and storage, networking, power and cooling, software, 
+operations and maintenance.",0.6745793223381042,0.5971649038420982
+What are the capabilities and limitations of LLMs?,3,"LLM to operate. An equally important question now arises: What can a LLM actually do? 
+The remarkable success of modern language models has demonstrated that they can perform a 
+wide variety of tasks. They can summarize lengthy documents, translate between languages, 
+answer questions, write computer programs, generate creative stories, explain complex scientific 
+concepts, assist with research, and support decision making in many professional domains. These 
+capabilities have led to the rapid adoption of LLMs across education, software engineering, 
+healthcare, business, finance, scientific research, and many other fields. 
+At the same time, it is important to recognize that these capabilities are accompanied by",0.6770473718643188,0.5962860780064505
+What are the capabilities and limitations of LLMs?,4,"The choice can depend on factors such as cost; security; privacy; performance; scalability; 
+organizational expertise; and regulatory requirements. These choices are particularly relevant 
+when an LLM is incorporated into an organization's Information Systems. 
+The IS Perspective 
+From an Information Systems perspective, the software infrastructure determines how the 
+computational capabilities discussed earlier become an actual service that applications can use. 
+The important questions include: 
+ How does an application communicate with the LLM?  
+ How are multiple requests managed?  
+ How are computing resources allocated?  
+ How is the model monitored?  
+ How can the system scale when demand increases?  
+ How are failures detected and handled?",0.683616578578949,0.5939594636470298
+What are the capabilities and limitations of LLMs?,5,"healthcare, business, finance, scientific research, and many other fields. 
+At the same time, it is important to recognize that these capabilities are accompanied by 
+significant limitations. Despite their impressive performance, LLMs do not possess human 
+understanding, cannot guarantee factual correctness, may generate convincing but incorrect 
+information, and sometimes fail on tasks that appear simple to human users. Understanding both 
+the strengths and the limitations of these systems is therefore essential for using them effectively 
+and responsibly. 
+This chapter examines the capabilities of LLMs from the perspective developed throughout this 
+book. Rather than presenting a catalogue of applications or specific software products, we shall",0.6911212801933289,0.5913236452714261
+What are the applications of LLMs in different industries?,1,"Industries 
+ 
+CHAPTER OUTLINE 
+9.1 From Capabilities to Applications 
+9.2 Education 
+9.3 Software Engineering 
+9.4 Business and Operations 
+9.5 Healthcare 
+9.6 Law and Legal Services 
+9.7 Finance and Banking 
+9.8 Scientific Research 
+9.9 Customer Support and CRM 
+ 
+  
+Introduction to Large Language Models 
+177 
+Learning Objectives 
+ Explain how the capabilities of LLMs enable a wide variety of practical applications. 
+ Describe representative applications of LLMs in education, software engineering, 
+business, healthcare, law, finance, scientific research, and customer support. 
+ Identify the principal benefits that LLMs can provide in different professional domains. 
+ Recognize the limitations and risks associated with using LLMs in practical applications.",0.7030678987503052,0.5871756497399724
+What are the applications of LLMs in different industries?,2,"depends not only on what the technology can do, but also on the consequences of what happens 
+when it is wrong. 
+LLMs and Business Processes 
+LLM integration can affect not only individual functions of an information system but also the 
+way business processes are performed. An LLM may assist with activities such as interpreting 
+customer requests, classifying documents, extracting information, preparing drafts, or routing 
+cases to the appropriate workflow. 
+In many cases, the LLM should be regarded as one component within an existing business 
+process rather than as a replacement for the process itself. Conventional software can continue to 
+enforce business rules, manage transactions, and coordinate workflow activities, while the LLM",0.8048073649406433,0.5540757531388333
+What are the applications of LLMs in different industries?,3,"laboratories into everyday professional environments. Organizations of every size are 
+incorporating these systems into their daily operations, often using them not as standalone 
+applications but as intelligent components integrated into existing software, business processes, 
+and decision-support systems. 
+Unlike earlier generations of specialized artificial intelligence systems, which were typically 
+designed for a single narrowly defined task, LLMs are general-purpose technologies. The same 
+model that assists a physician in summarizing medical literature can also help a software engineer 
+develop computer programs, support a teacher in preparing classroom materials, assist a lawyer in 
+reviewing legal documents, or help a researcher analyze scientific publications.",0.8194110989570618,0.5496283938100787
+What are the applications of LLMs in different industries?,4,"predetermined technological path. The development of LLMs will be influenced by interactions 
+among Technology + Economics + Organizations + Regulation + Society 
+A technically possible capability may not become widely used, while an apparently modest 
+capability may have a substantial impact if it can be integrated easily into existing Information 
+Systems. 
+For this reason, Information Systems professionals should be prepared not for one specific 
+technological future, but for continued change.",0.8356708288192749,0.5447599778241352
+What are the applications of LLMs in different industries?,5,"they can be applied, and how they can be incorporated into Information Systems. These 
+technologies can provide substantial benefits, but their use also introduces risks that must be 
+considered when LLMs become part of organizational systems and business processes. 
+Some of these risks are familiar from conventional Information Systems. Organizations have long 
+needed to protect personal and confidential information, control access to systems, maintain 
+system availability, and comply with legal and organizational requirements. 
+LLMs introduce additional considerations because they process and generate natural language 
+and because their behavior is based on learned statistical patterns rather than on explicitly",0.8456982374191284,0.5418003765330118
+What is Retrieval-Augmented Generation (RAG)?,1,"RAG, information obtained from external services, and instructions defined by the application. 
+The resulting context allows the LLM to interpret and combine information from several sources 
+when generating its response. 
+This section showed how information from those systems can be incorporated into the context 
+supplied to the model. One of the most important mechanisms for doing this is Retrieval-
+Augmented Generation (RAG). The next section examines RAG in greater detail, including 
+how information is prepared for retrieval, how relevant information is identified, and how 
+retrieved information is incorporated into the model's context. 
+12.4 Retrieval-Augmented Generation (RAG) 
+In Section 11.4, Retrieval-Augmented Generation (RAG) was introduced as a method for",0.4920540452003479,0.6702170093749676
+What is Retrieval-Augmented Generation (RAG)?,2,"current request. For example, when an employee asks about a company policy, the system may 
+retrieve the relevant policy document and provide it to the model. Similarly, when a user asks 
+about a customer's account, the system may retrieve the relevant customer record from a 
+database. 
+The retrieved information is not part of the LLM's learned parameters. It is information supplied 
+to the model for the specific interaction. This distinction is fundamental to understanding 
+Retrieval-Augmented Generation (RAG), discussed in Section 10.4 and examined in greater 
+detail in the next section.",0.5208412408828735,0.6575308277539104
+What is Retrieval-Augmented Generation (RAG)?,3,"system can retrieve relevant information and provide it to the LLM as additional context. This is 
+the principle of Retrieval-Augmented Generation (RAG) introduced in Section 10.4. 
+The important distinction is that the LLM's role and the retrieval system's role remain different. 
+The retrieval mechanism obtains information from external sources, while the LLM interprets the 
+retrieved material and generates a response. The external source might be the public Web, but it 
+does not have to be. A RAG system can be restricted to specific repositories or databases selected 
+by the organization. 
+Combining Internal and External Information 
+A particularly useful pattern combines information from both organizational and external sources.",0.5762113332748413,0.6344326924247737
+What is Retrieval-Augmented Generation (RAG)?,4,"Context and Retrieval-Augmented Generation (RAG) 
+In many practical applications, the information required to answer a user's question is not 
+contained entirely within the knowledge acquired during model training. Organizations often 
+need the model to use current information, proprietary documents, technical manuals, 
+organizational policies, research papers, or other sources that were unavailable during training. 
+One widely used solution is Retrieval-Augmented Generation (RAG). In a RAG-based system, 
+the language model is supplemented by an external information retrieval component. When a user 
+submits a prompt, the retrieval system first searches one or more knowledge repositories to 
+identify documents that are relevant to the request. These retrieved documents are then",0.5992624759674072,0.6252882281847397
+What is Retrieval-Augmented Generation (RAG)?,5,"information from external sources. This is one of the purposes of Retrieval-Augmented 
+Generation (RAG), discussed in Chapter 11. Instead of relying entirely on information encoded in 
+the model, the application can retrieve relevant information and provide it to the LLM as context. 
+Conceptually: 
+User Question -> Retrieve Relevant Information -> LLM + Retrieved Context -> Generated 
+Response 
+This can improve the factual basis of the response, particularly when the information is current 
+and the retrieval system provides authoritative sources. 
+However, RAG does not guarantee correctness. The retrieval process may select inappropriate 
+information, the retrieved information may itself be incorrect or outdated, or the LLM may",0.6195627450942993,0.6174506069795862
+"What are the privacy, security and safety concerns of LLMs?",1,"and protecting physical and computing resources. Chapter 12 considered the organizational 
+responsibilities involved in integrating and operating an LLM-based Information System.  
+This chapter takes a broader perspective. It asks: What can go wrong when LLMs are used, 
+what consequences can result, and what controls and responsibilities are needed to use them 
+appropriately? The issues considered include privacy and protection of information, security 
+threats, reliability and safety, bias and fairness, human oversight, accountability, organizational 
+governance, and legal and regulatory considerations. 
+14.1 Privacy and Protection of Information 
+Privacy is one of the most important considerations when an LLM is introduced into an",0.4043809473514557,0.7120575096706602
+"What are the privacy, security and safety concerns of LLMs?",2," What information and people may be affected?  
+ What could go wrong?  
+ How serious would the consequences be?  
+ What controls can reduce the risk?  
+ Who should review and approve the system?  
+ What level of residual risk is acceptable?  
+ How will the system be monitored after deployment?  
+This approach allows an organization to evaluate LLM applications in a systematic and 
+proportionate manner. 
+Key Points 
+ LLM-based Information Systems introduce risks involving privacy, security, reliability, 
+safety, ethics, governance, and legal and regulatory requirements.  
+ Privacy must be protected throughout the complete information flow. Organizations must 
+control what information is provided to an LLM, who is authorized to access it, and how",0.4124860167503357,0.7079716104380772
+"What are the privacy, security and safety concerns of LLMs?",3,"considerations, such as protecting network communication, controlling access to infrastructure, 
+and protecting physical and computing resources. Chapter 12 considered the organizational 
+responsibilities involved in integrating and operating an LLM-based Information System.  
+This chapter takes a broader perspective. It asks: What can go wrong when LLMs are used, 
+what consequences can result, and what controls and responsibilities are needed to use them 
+appropriately? The issues considered include privacy and protection of information, security 
+threats, reliability and safety, bias and fairness, human oversight, accountability, organizational 
+governance, and legal and regulatory considerations. 
+14.1 Privacy and Protection of Information",0.4175258278846741,0.7054545182377849
+"What are the privacy, security and safety concerns of LLMs?",4,"proportionate manner. 
+Key Points 
+ LLM-based Information Systems introduce risks involving privacy, security, reliability, 
+safety, ethics, governance, and legal and regulatory requirements.  
+ Privacy must be protected throughout the complete information flow. Organizations must 
+control what information is provided to an LLM, who is authorized to access it, and how 
+information is handled when external LLM services are used.  
+ LLM-based systems introduce security risks such as prompt injection, unauthorized 
+access, excessive authority, and manipulation of interactions with external tools and 
+services. Security must therefore be enforced by the surrounding system rather than 
+delegated to the LLM.",0.541013777256012,0.6489234650326346
+"What are the privacy, security and safety concerns of LLMs?",5,"The IS Perspective 
+For an Information Systems professional, the central privacy questions are therefore: 
+ What information does the LLM receive?  
+ Where does that information come from?  
+ Is the information necessary for the requested task?  
+ Is the user authorized to access it?  
+ Is the information transmitted to an external service?  
+ How is the information stored and protected?  
+ Could the generated response disclose information that should remain confidential?  
+These questions should be considered during system design rather than only after the system has 
+been deployed. 
+14.2 Security Threats and Vulnerabilities 
+Privacy concerns arise primarily from the information that an LLM-based system processes and",0.5722340941429138,0.6360376000783389
+Why are ethics and human oversight important in AI systems?,1,"The professional therefore remains actively involved, but the nature of the involvement changes. 
+The Increasing Importance of Judgment 
+AI systems may become increasingly capable of performing technical and analytical tasks, but 
+organizations will still need people who can determine: 
+ what the organization is trying to achieve;  
+ whether an AI-generated solution is appropriate;  
+ whether its assumptions are reasonable;  
+ whether its results can be trusted;  
+ and what consequences may result from using it.  
+This is particularly important when decisions involve significant financial, legal, organizational, 
+or human consequences. As AI capabilities increase, human judgment may become more 
+important, because people will increasingly be responsible for deciding when and how AI",0.6966509819030762,0.5893964113222235
+Why are ethics and human oversight important in AI systems?,2,"potential consequences therefore increase as the system gains authority to act. 
+Boundaries and Human Control 
+AI agents should therefore operate within clearly defined boundaries. These boundaries may 
+specify: 
+ which information the agent can access;  
+ which applications it can use;  
+ which actions it can perform;  
+ maximum transaction amounts;  
+ which actions require human approval;  
+ and when the agent must stop and request assistance.  
+This approach allows organizations to obtain some benefits of autonomy without giving the AI 
+unrestricted authority. 
+Monitoring Agent Behavior 
+An autonomous system also needs appropriate monitoring. The organization may need to record: 
+ what the agent was asked to accomplish;  
+ what information it accessed;",0.7922345399856567,0.5579626871871374
+Why are ethics and human oversight important in AI systems?,3," the importance of the process;  
+ the consequences of errors;  
+ the information available to the agent;  
+ the actions it can perform;  
+ the required level of human oversight;  
+ and the controls that remain outside the AI system.  
+These considerations connect the future development of AI agents directly to the principles of 
+architecture, security, governance, and accountability discussed in earlier chapters. 
+15.4 Changing Professional Roles in an AI-Enabled Environment 
+As AI systems become more capable, they are likely to affect the work of Information Systems 
+professionals. The most important change may not be the disappearance of professional roles, but 
+a redistribution of responsibilities between people and increasingly capable AI systems.",0.8044705390930176,0.5541791779557846
+Why are ethics and human oversight important in AI systems?,4,"organizational culture; security and privacy requirements; regulatory obligations; and the ability 
+to manage the resulting changes.  
+Some organizations may adopt increasingly autonomous AI systems rapidly, while others may 
+deliberately maintain greater human involvement. 
+Trust and Acceptance 
+The willingness of employees, customers, and other stakeholders to rely on AI systems will also 
+influence their adoption. People may be reluctant to delegate important activities to systems 
+whose behavior they do not fully understand or whose outputs cannot always be verified. 
+Consequently, improvements in technical capability may need to be accompanied by 
+improvements in reliability, transparency, controllability, and human understanding. 
+Regulation and Society",0.8253607749938965,0.5478369063799696
+Why are ethics and human oversight important in AI systems?,5,"Benefits and Risks 
+Greater autonomy could provide significant benefits. AI agents might reduce the amount of time 
+employees spend on repetitive activities, coordinate information from multiple systems, and 
+allow users to accomplish complex tasks through relatively simple instructions. 
+However, autonomy also increases risk. An incorrect interpretation of a user's request could result 
+in several incorrect actions rather than a single incorrect response. 
+For example, if an agent incorrectly concludes that a customer should receive a particular refund, 
+it might not only generate an incorrect recommendation but also initiate the transaction. The 
+potential consequences therefore increase as the system gains authority to act. 
+Boundaries and Human Control",0.8439886569976807,0.5423026851087933

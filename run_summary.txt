@@ -1,0 +1,31 @@
+WEEK 13 - PDF QUESTION ANSWERING SYSTEM
+=====================================
+
+Project: PDF Question Answering System using LangChain, ChromaDB and Ollama
+
+PDF file: D:\LLM TASKS\LLM_PDF_Question_Answering\dataset\sample.pdf
+PDF text characters: 917095
+Number of chunks: 1490
+Questions processed: 15
+Top-K retrieval: 5
+Chunk size: 800
+Chunk overlap: 120
+Ollama model: llama3.2
+ChromaDB collection: week13_pdf_qa
+ChromaDB stored records: 1490
+
+GENERATED FILES
+---------------
+dataset/extracted_text.txt
+dataset/chunks.csv
+dataset/questions.csv
+dataset/search_results.csv
+dataset/answers_comparison.csv
+chroma_db/ (persistent vector database)
+
+NOTES
+-----
+- RAG answers are generated using retrieved PDF chunks as context.
+- Without-RAG answers are generated using the Ollama model's general knowledge.
+- Similarity score is derived from Chroma distance using 1 / (1 + distance).
+  It is a derived value and not a probability.
